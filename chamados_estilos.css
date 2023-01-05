@@ -1,0 +1,86 @@
+/* Fontes */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+*{
+    margin: 5px;
+    padding-bottom: 5px;
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+body{
+    background-color: whitesmoke;
+}
+
+header{
+    /* alinhar caixa do texto (toda a parte azul escuro) */
+    display: flex;
+    justify-content: center;
+    /* esses dois comando ai encima faz isso */
+    /* alinhando horizontalmente */
+    margin-left: auto;
+    margin-right: auto;
+    /* é necessario que tenha os dois no auto */
+}
+
+#cabecalho{
+    width: 31.25rem;
+    background-color: whitesmoke;
+    border-radius: 8px;
+    text-align: center;
+    
+}
+
+label, #curso, #turnos, #enviar {
+    font-size: 1.125rem;
+}
+
+
+#first-part{
+    background-color: #7e94f8;
+    border-radius: 8px;
+    text-align: justify;
+    margin-bottom: 20px;
+}
+
+#first-part h3{
+    font-size: 30px;
+}
+
+#first-part, #second-part h4{
+    font-size: 20px;
+}
+
+#enviar{
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 150px;
+    height: 40px;
+}
+
+
+#second-part{
+    background-color: #7e94f8;
+    border-radius: 8px;
+    text-align: justify;
+    margin-bottom: 20px;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    
+}
+
+#rodape{
+    background-color: #7e94f8;
+    border-radius: 8px;
+    text-align: justify;
+    margin-bottom: 20px;
+}
+
+#rodape a, strong {
+    color: aliceblue;
+}

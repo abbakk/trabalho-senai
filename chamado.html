@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded" rel="stylesheet" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chamados Senai</title>
+    <link rel="stylesheet" href="chamados_estilos.css">
+</head>
+<body>
+
+    <!-- Cabeçalho -->
+    <header>
+        <div id="cabecalho">
+            <img src="senai-logo-1.png" alt="" width="auto" height="130">
+            <h3>Realize seus chamados aqui!!!</h3>
+        </div>
+    </header>
+
+    <!-- Primeria parte do formulário -->
+    <div id="first-part">
+        <h3>Por favor, preencha o que se pede:</h3>
+
+        <h4>Gostariamos de conhecer você, nos diga seu nome e email para entrarmos em contato, além do curso e turno frequentado.</h3>     
+               
+        <!-- caixa nome -->
+        <label for="nome"><strong>Nome:</strong></label>
+        <input type="text" name="nome" id="nome">
+
+        <!-- caixa email -->
+        <label for="email"><strong>Email:</strong> </label>
+        <input type="email" name="email" id="email" placeholder="exemplo@exemplo.com">
+        
+<br><br>
+
+        <!-- Caixa curso -->
+        <label for="curso"><strong>Curso:</strong> </label> 
+            <select name="cursos" id="curso">
+                <option value="TI">TI</option>
+                <option value="Gestão">Gestão</option>
+                <option value="">Panificação</option>
+                <option value="">Qualidade</option>
+            </select>
+
+        <!-- Escolha de turno -->
+        <label for="curso"><strong>Turno:</strong> </label>
+        <label for="turno_manha" id="turnos">Manhã</label>
+        <input type="radio" name="turno" id="turno_manha">
+
+
+        <label for="turno_tarde">Tarde</label>
+        <input type="radio" name="turno" id="turno_tarde">
+
+
+        <label for="turno_noite">Noite</label>
+        <input type="radio" name="turno" id="turno_noite">
+
+    </div>
+
+
+        <!-- Segunda parte do formulario -->
+    <div id="second-part">
+
+        <!-- Seleção de problema -->
+        <h4>Para facilitar nosso trabalho, selecione a area que melhor se encaixa ao seu caso.</h4>
+        
+        <label for="opcao1">Hardware</label> <input type="checkbox" name="opcao1" id="opcao1"> 
+        <label for="opcao2">Software</label> <input type="checkbox" name="opcao2" id="opcao2"> <br>
+        <label for="opcao3">Rede</label> <input type="checkbox" name="opcao3" id="opcao3">
+        <label for="opcao4">Sala de aula</label> <input type="checkbox" name="opcao4" id="opcao4">
+        <label for="opcao5">Energia</label> <input type="checkbox" name="opcao5" id="opcao5">
+
+        <!-- Chamado -->
+        <h4>Ótimo, agora comente o problema.</h4>
+
+        <textarea name="chamado" id="chamado" cols="80" rows="6" placeholder="Ex. Minha máquina não liga..."></textarea>
+
+<!-- Linha de separação -->
+<br>
+
+        <!-- Enviar -->
+        <input type="submit" value="Enviar" id="enviar">
+    </div>
+
+
+    <footer>
+        <div id="rodape">
+            <h4>Caso não seja solucionado, entre em contato pelo email ou telefone.
+                <ul>
+                    <li><strong>Email:</strong> senaiextrema@fiemg.com.br</li>
+                    <li><strong>Telefone:</strong> (35) 3100-1353</li>
+                </ul>
+            <h4>Site oficial <a href="https://www7.fiemg.com.br/senai/mais-senai/na-sua-cidade/senai-extrema-cfp-janez-hlebanja" target="_blank">Senai Extrema Janez Hlebanja</a>.</h4>
+            </h4>
+    </div>
+    </footer>
+
+<link rel="stylesheet" href="script.js">    
+</body>
+</html>
