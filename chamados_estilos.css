@@ -84,3 +84,12 @@ footer{
 #rodape a, strong {
     color: aliceblue;
 }
+
+#enviar{
+    width: 25vw;
+    border-radius: 20px;
+    outline: none;
+    color: black;
+    background-color: whitesmoke;
+    font-size: 16pt;
+}
